@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+        function change(){
+            confirm("欢迎你的到来")
+
+        }
+        function toto(){
+            var hope =	document.getElementById("massage").value
+
+            if(hope==""){
+                confirm("告诉我你的名字好吗？")
+            }
+            else{confirm(hope);
+
+            }
+
+        }
+
+
+    </script>
+    <style type="text/css">
+        div{
+            background-color: aqua;
+            width: 500px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        p{
+            -moz-text-blink: blink;
+        }
+        /* .blink{
+            animation: blink 1s;
+        } */
+    </style>
+
+</head>
+<body>
+<div id="blink">
+    <p>成都东软22309班</p>
+    <input type="text" id="massage" placeholder="在此处填写你的名字"
+           onchange="change()" onblur="toto()">
+
+</div>
+</body>
+</html>
