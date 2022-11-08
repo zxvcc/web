@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"">
+		<title>实验</title>
+	</head>
+	<body>
+		<input type="text"/ size="40" onkeydown="myFun(event)">
+		<p id="key"></p>
+		<p onmousedown="iskey(event)">点击该段落检验ALT是否被按下</p>
+		<p onmousedown="iskeyCTRL(event)">点击该段落检验CTRL是否被按下</p>
+		<script>
+			function myFun(event){
+				var x = event.key;	
+				document.getElementById("key").innerHTML="按键为："+x;
+			}
+			function iskey(event){
+				if (event.altKey==1){
+					alert("ALT被按下")
+				}else{
+					alert("ALT未被按下")
+				}
+			}
+			function iskeyCTRL(event){
+				if (event.ctrlKey==1){
+					alert("CTRL被按下")
+				}else{
+					alert("CTRL未被按下")
+				}
+			}
+		</script>   
+	</body>
+</html>
