@@ -1,0 +1,15 @@
+div.div1{
+	border-radius: 5px;
+	padding: 20px;
+	width: 350px;
+	margin:auto;
+	background-color: #f2f2f2;
+	box-shadow: 10px 10px 4px #888888;
+}
+input{
+	border-width: 3px;
+	border-style: inset;
+}
+textarea{
+	font-family: "宋体";
+}
