@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆页面编写</title>
+    <link rel="stylesheet" href="7-2.css">
+    <script rel="script" src="7-2.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="title">
+        我的个人页面登录
+    </div>
+    <form action="https://www.baidu.com" method="get">
+        <div class="log">
+            <div class="line"><span>账号：</span>
+                <input type="text" id="zh_input" placeholder="请输入账号" onblur="check_username()"/>
+            </div>
+            <div class="line"><span>密码：</span>
+                <input type="password" id="mm_input" placeholder="请输入密码" onblur="check_password()"/>
+            </div>
+            <button type="button" class="login" onclick="logins()">登录</button>
+            <button type="reset" class="reset">重置</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

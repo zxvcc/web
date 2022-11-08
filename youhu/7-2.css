@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-size: 100%,100%;
+}
+
+.title{
+    color: #acb1e5;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.content{
+    width: 42%;
+    position: fixed;
+    background: #6a4e5a;
+    opacity: 0.8;
+    left: 29%;
+    padding: 5% 1%;
+    margin-top: 12%;
+    border-radius: 5px;
+}
+
+.log{
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.line{
+    border-radius: 10px;
+    border: none;
+    padding: 15px 5px;
+    width: 330px;
+    margin-right: 40px;
+    color: pink;
+    margin-left: 120px;
+    margin-bottom: 18px;
+}
+
+.login{
+    margin-right: 90px;
+}
+
+span{
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+}
